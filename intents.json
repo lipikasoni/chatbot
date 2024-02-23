@@ -1,0 +1,766 @@
+{
+  "intents": [
+    {
+      "tag": "greeting_howareyou",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How's it going?",
+        "How are things?"
+      ],
+      "responses": [
+        "I'm doing well, thank you for asking!",
+        "I'm good, thanks for asking. How can I assist you today?",
+        "I'm doing great, thanks! How may I help you?",
+        "All is well! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "greeting_whatsup",
+      "patterns": [
+        "What's up?",
+        "Sup?",
+        "What's new?",
+        "How's everything?"
+      ],
+      "responses": [
+        "Not much, just here to help you!",
+        "Just assisting users like you. How can I assist you today?",
+        "Nothing much. How may I help you?",
+        "Just here, ready to assist you with anything you need."
+      ]
+    },
+    {
+      "tag": "greeting_nicetomeetyou",
+      "patterns": [
+        "Nice to meet you",
+        "Pleased to meet you",
+        "It's a pleasure to meet you"
+      ],
+      "responses": [
+        "Likewise! How can I assist you today?",
+        "The pleasure is mine. How may I help you?",
+        "Great to meet you too. What can I do for you?"
+      ]
+    },
+    
+    
+    {
+      "tag": "location_main_auditorium",
+      "patterns": [
+        "Where is Main Auditorium located?",
+        "What is the location of Main Auditorium?",
+        "Location of Main Auditorium?",
+        "Main Auditorium"
+      ],
+      "responses": [
+        "Main Auditorium is located in Dr. T. P. Ganesan Auditorium."
+      ]
+    },
+    {
+      "tag": "capacity_main_auditorium",
+      "patterns": [
+        "What is the capacity of Main Auditorium?",
+        "Capacity of Main Auditorium?"
+      ],
+      "responses": [
+        "Main Auditorium has a capacity of 3000 people."
+      ]
+    },
+    {
+      "tag": "facilities_main_auditorium",
+      "patterns": [
+        "What are the facilities in Main Auditorium?",
+        "Facilities in Main Auditorium?"
+      ],
+      "responses": [
+        "Facilities in Main Auditorium include podium, microphone, sound system, projector, guest room, and food serving area."
+      ]
+    },
+    {
+      "tag": "person_incharge_main_auditorium",
+      "patterns": [
+        "Who is in charge of Main Auditorium?",
+        "Person in charge of Main Auditorium?"
+      ],
+      "responses": [
+        "Main Auditorium is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_main_auditorium",
+      "patterns": [
+        "Tell me about Main Auditorium",
+        "What are the details of Main Auditorium?",
+        "Details of Main Auditorium?"
+      ],
+      "responses": [
+        "Main Auditorium is located in Dr. T. P. Ganesan Auditorium with a capacity of 3000 people. Facilities included: podium, microphone, sound system, projector, guest room, and food serving area. It is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    
+    {
+          "tag": "location_mini_hall_1",
+          "patterns": [
+            "Where is Mini Hall - 1 located?",
+            "What is the location of Mini Hall - 1?",
+            "Location of Mini Hall - 1?",
+            "Mini Hall - 1",
+            "Mini Hall-1",
+            "Mini Hall 1",
+            "mini hall - 1",
+            "mini hall 1"
+          ],
+          "responses": [
+            "Mini Hall - 1 is located in Dr. T. P. Ganesan Auditorium."
+          ]
+        },
+        {
+          "tag": "capacity_mini_hall_1",
+          "patterns": [
+            "What is the capacity of Mini Hall - 1?",
+            "Capacity of Mini Hall - 1?"
+          ],
+          "responses": [
+            "Mini Hall - 1 has a capacity of 300 people."
+          ]
+        },
+        {
+          "tag": "facilities_mini_hall_1",
+          "patterns": [
+            "What are the facilities in Mini Hall - 1?",
+            "Facilities in Mini Hall - 1?"
+          ],
+          "responses": [
+            "Facilities in Mini Hall - 1 include podium, microphone, sound system, projector, guest room, and food serving area."
+          ]
+        },
+        {
+          "tag": "person_incharge_mini_hall_1",
+          "patterns": [
+            "Who is in charge of Mini Hall - 1?",
+            "Person in charge of Mini Hall - 1?"
+          ],
+          "responses": [
+            "Mini Hall - 1 is managed by pro@srmuniv.ac.in."
+          ]
+        },
+        {
+          "tag": "details_mini_hall_1",
+          "patterns": [
+            "Tell me about Mini Hall - 1",
+            "What are the details of Mini Hall - 1?",
+            "Details of Mini Hall - 1?"
+          ],
+          "responses": [
+            "Mini Hall - 1 is located in Dr. T. P. Ganesan Auditorium with a capacity of 300 people. Facilities included: podium, microphone, sound system, projector, guest room, and food serving area. It is managed by pro@srmuniv.ac.in."
+          ]
+    },
+    {
+      "tag": "location_mini_hall_2",
+      "patterns": [
+        "Where is Mini Hall - 2 located?",
+        "What is the location of Mini Hall - 2?",
+        "Location of Mini Hall - 2?",
+        "Mini Hall - 2",
+            "Mini Hall-2",
+            "Mini Hall 2",
+            "mini hall - 2",
+            "mini hall 2"
+      ],
+      "responses": [
+        "Mini Hall - 2 is located in Dr. T. P. Ganesan Auditorium."
+      ]
+    },
+    {
+      "tag": "capacity_mini_hall_2",
+      "patterns": [
+        "What is the capacity of Mini Hall - 2?",
+        "Capacity of Mini Hall - 2?"
+      ],
+      "responses": [
+        "Mini Hall - 2 has a capacity of 250 people."
+      ]
+    },
+    {
+      "tag": "facilities_mini_hall_2",
+      "patterns": [
+        "What are the facilities in Mini Hall - 2?",
+        "Facilities in Mini Hall - 2?"
+      ],
+      "responses": [
+        "Facilities in Mini Hall - 2 include podium, microphone, sound system, projector, guest room, and food serving area."
+      ]
+    },
+    {
+      "tag": "person_incharge_mini_hall_2",
+      "patterns": [
+        "Who is in charge of Mini Hall - 2?",
+        "Person in charge of Mini Hall - 2?"
+      ],
+      "responses": [
+        "Mini Hall - 2 is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_mini_hall_2",
+      "patterns": [
+        "Tell me about Mini Hall - 2",
+        "What are the details of Mini Hall - 2?",
+        "Details of Mini Hall - 2?"
+      ],
+      "responses": [
+        "Mini Hall - 2 is located in Dr. T. P. Ganesan Auditorium with a capacity of 250 people. Facilities included: podium, microphone, sound system, projector, guest room, and food serving area. It is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_dr_venkatraman_ramakrishnan_hall",
+      "patterns": [
+        "Where is Dr. Venkatraman Ramakrishnan Hall located?",
+        "What is the location of Dr. Venkatraman Ramakrishnan Hall?",
+        "Location of Dr. Venkatraman Ramakrishnan Hall?",
+        "Dr. Venkatraman Ramakrishnan Hall"
+      
+      ],
+      "responses": [
+        "Dr. Venkatraman Ramakrishnan Hall is located in University Building - 15th floor."
+      ]
+    },
+    {
+      "tag": "capacity_dr_venkatraman_ramakrishnan_hall",
+      "patterns": [
+        "What is the capacity of Dr. Venkatraman Ramakrishnan Hall?",
+        "Capacity of Dr. Venkatraman Ramakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. Venkatraman Ramakrishnan Hall has a capacity of 60 people."
+      ]
+    },
+    {
+      "tag": "facilities_dr_venkatraman_ramakrishnan_hall",
+      "patterns": [
+        "What are the facilities in Dr. Venkatraman Ramakrishnan Hall?",
+        "Facilities in Dr. Venkatraman Ramakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. Venkatraman Ramakrishnan Hall is not for student use."
+      ]
+    },
+    {
+      "tag": "person_incharge_dr_venkatraman_ramakrishnan_hall",
+      "patterns": [
+        "Who is in charge of Dr. Venkatraman Ramakrishnan Hall?",
+        "Person in charge of Dr. Venkatraman Ramakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. Venkatraman Ramakrishnan Hall is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_dr_venkatraman_ramakrishnan_hall",
+      "patterns": [
+        "Tell me about Dr. Venkatraman Ramakrishnan Hall",
+        "What are the details of Dr. Venkatraman Ramakrishnan Hall?",
+        "Details of Dr. Venkatraman Ramakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. Venkatraman Ramakrishnan Hall is located in University Building - 15th floor with a capacity of 60 people. It is not for student use and is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_dr_radhakrishnan_hall",
+      "patterns": [
+        "Where is Dr. S. Radhakrishnan Hall located?",
+        "What is the location of Dr. S. Radhakrishnan Hall?",
+        "Location of Dr. S. Radhakrishnan Hall?",
+        "Dr. S. Radhakrishnan Hall"
+      ],
+      "responses": [
+        "Dr. S. Radhakrishnan Hall is located in University Building - 15th floor."
+      ]
+    },
+    {
+      "tag": "capacity_dr_radhakrishnan_hall",
+      "patterns": [
+        "What is the capacity of Dr. S. Radhakrishnan Hall?",
+        "Capacity of Dr. S. Radhakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. S. Radhakrishnan Hall has a capacity of 30 people."
+      ]
+    },
+    {
+      "tag": "facilities_dr_radhakrishnan_hall",
+      "patterns": [
+        "What are the facilities in Dr. S. Radhakrishnan Hall?",
+        "Facilities in Dr. S. Radhakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. S. Radhakrishnan Hall is not for student use."
+      ]
+    },
+    {
+      "tag": "person_incharge_dr_radhakrishnan_hall",
+      "patterns": [
+        "Who is in charge of Dr. S. Radhakrishnan Hall?",
+        "Person in charge of Dr. S. Radhakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. S. Radhakrishnan Hall is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_dr_radhakrishnan_hall",
+      "patterns": [
+        "Tell me about Dr. S. Radhakrishnan Hall",
+        "What are the details of Dr. S. Radhakrishnan Hall?",
+        "Details of Dr. S. Radhakrishnan Hall?"
+      ],
+      "responses": [
+        "Dr. S. Radhakrishnan Hall is located in University Building - 15th floor with a capacity of 30 people. It is not for student use and is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_ramanujan_hall",
+      "patterns": [
+        "Where is Ramanujan Hall located?",
+        "What is the location of Ramanujan Hall?",
+        "Location of Ramanujan Hall?",
+        "Ramanujan Hall"
+      ],
+      "responses": [
+        "Ramanujan Hall is located on Tech Park 1st floor."
+      ]
+    },
+    {
+      "tag": "capacity_ramanujan_hall",
+      "patterns": [
+        "What is the capacity of Ramanujan Hall?",
+        "Capacity of Ramanujan Hall?"
+      ],
+      "responses": [
+        "Ramanujan Hall has a capacity of 60 people."
+      ]
+    },
+    {
+      "tag": "facilities_ramanujan_hall",
+      "patterns": [
+        "What are the facilities in Ramanujan Hall?",
+        "Facilities in Ramanujan Hall?"
+      ],
+      "responses": [
+        "Ramanujan Hall is not for student use."
+      ]
+    },
+    {
+      "tag": "person_incharge_ramanujan_hall",
+      "patterns": [
+        "Who is in charge of Ramanujan Hall?",
+        "Person in charge of Ramanujan Hall?"
+      ],
+      "responses": [
+        "Ramanujan Hall is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_ramanujan_hall",
+      "patterns": [
+        "Tell me about Ramanujan Hall",
+        "What are the details of Ramanujan Hall?",
+        "Details of Ramanujan Hall?"
+      ],
+      "responses": [
+        "Ramanujan Hall is located on Tech Park 1st floor with a capacity of 60 people. It is not for student use and is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_turing_hall",
+      "patterns": [
+        "Where is Turing Hall located?",
+        "What is the location of Turing Hall?",
+        "Location of Turing Hall?",
+        "Turing Hall"
+      ],
+      "responses": [
+        "Turing Hall is located on Tech Park-8th floor."
+      ]
+    },
+    {
+      "tag": "capacity_turing_hall",
+      "patterns": [
+        "What is the capacity of Turing Hall?",
+        "Capacity of Turing Hall?"
+      ],
+      "responses": [
+        "Turing Hall has a capacity of 120 people."
+      ]
+    },
+    {
+      "tag": "facilities_turing_hall",
+      "patterns": [
+        "What are the facilities in Turing Hall?",
+        "Facilities in Turing Hall?"
+      ],
+      "responses": [
+        "Facilities in Turing Hall include podium, microphone, sound system, and projector."
+      ]
+    },
+    {
+      "tag": "person_incharge_turing_hall",
+      "patterns": [
+        "Who is in charge of Turing Hall?",
+        "Person in charge of Turing Hall?"
+      ],
+      "responses": [
+        "Turing Hall is managed by hod.cse@ktr.srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_turing_hall",
+      "patterns": [
+        "Tell me about Turing Hall",
+        "What are the details of Turing Hall?",
+        "Details of Turing Hall?"
+      ],
+      "responses": [
+        "Turing Hall is located on Tech Park-8th floor with a capacity of 120 people. Facilities included: podium, microphone, sound system, and projector. It is managed by hod.cse@ktr.srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_sir_jc_bose_hall",
+      "patterns": [
+        "Where is Sir. J. C. Bose Hall located?",
+        "What is the location of Sir. J. C. Bose Hall?",
+        "Location of Sir. J. C. Bose Hall?",
+        "Sir. J. C. Bose Hall"
+      ],
+      "responses": [
+        "Sir. J. C. Bose Hall is located on Tech Park-12th floor."
+      ]
+    },
+    {
+      "tag": "capacity_sir_jc_bose_hall",
+      "patterns": [
+        "What is the capacity of Sir. J. C. Bose Hall?",
+        "Capacity of Sir. J. C. Bose Hall?"
+      ],
+      "responses": [
+        "Sir. J. C. Bose Hall has a capacity of 120 people."
+      ]
+    },
+    {
+      "tag": "facilities_sir_jc_bose_hall",
+      "patterns": [
+        "What are the facilities in Sir. J. C. Bose Hall?",
+        "Facilities in Sir. J. C. Bose Hall?"
+      ],
+      "responses": [
+        "Facilities in Sir. J. C. Bose Hall include podium, microphone, sound system, and projector."
+      ]
+    },
+    {
+      "tag": "person_incharge_sir_jc_bose_hall",
+      "patterns": [
+        "Who is in charge of Sir. J. C. Bose Hall?",
+        "Person in charge of Sir. J. C. Bose Hall?"
+      ],
+      "responses": [
+        "Sir. J. C. Bose Hall is managed by hod.ece@ktr.srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_sir_jc_bose_hall",
+      "patterns": [
+        "Tell me about Sir. J. C. Bose Hall",
+        "What are the details of Sir. J. C. Bose Hall?",
+        "Details of Sir. J. C. Bose Hall?"
+      ],
+      "responses": [
+        "Sir. J. C. Bose Hall is located on Tech Park-12th floor with a capacity of 120 people. Facilities included: podium, microphone, sound system, and projector. It is managed by hod.ece@ktr.srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_prof_gn_ramachandran_hall",
+      "patterns": [
+        "Where is Prof. G.N.Ramachandran Hall located?",
+        "What is the location of Prof. G.N.Ramachandran Hall?",
+        "Location of Prof. G.N.Ramachandran Hall?",
+        "Prof. G.N.Ramachandran Hall"
+      ],
+      "responses": [
+        "Prof. G.N.Ramachandran Hall is located in Bio Engg Block-6th floor."
+      ]
+    },
+    {
+      "tag": "capacity_prof_gn_ramachandran_hall",
+      "patterns": [
+        "What is the capacity of Prof. G.N.Ramachandran Hall?",
+        "Capacity of Prof. G.N.Ramachandran Hall?"
+      ],
+      "responses": [
+        "Prof. G.N.Ramachandran Hall has a capacity of 250 people."
+      ]
+    },
+    {
+      "tag": "facilities_prof_gn_ramachandran_hall",
+      "patterns": [
+        "What are the facilities in Prof. G.N.Ramachandran Hall?",
+        "Facilities in Prof. G.N.Ramachandran Hall?"
+      ],
+      "responses": [
+        "Facilities in Prof. G.N.Ramachandran Hall include podium, microphone, sound system, projector."
+      ]
+    },
+    {
+      "tag": "person_incharge_prof_gn_ramachandran_hall",
+      "patterns": [
+        "Who is in charge of Prof. G.N.Ramachandran Hall?",
+        "Person in charge of Prof. G.N.Ramachandran Hall?"
+      ],
+      "responses": [
+        "Prof. G.N.Ramachandran Hall is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_prof_gn_ramachandran_hall",
+      "patterns": [
+        "Tell me about Prof. G.N.Ramachandran Hall",
+        "What are the details of Prof. G.N.Ramachandran Hall?",
+        "Details of Prof. G.N.Ramachandran Hall?"
+      ],
+      "responses": [
+        "Prof. G.N.Ramachandran Hall is located in Bio Engg Block-6th floor with a capacity of 250 people. Facilities included: podium, microphone, sound system, projector. It is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_faraday_hall",
+      "patterns": [
+        "Where is Faraday Hall located?",
+        "What is the location of Faraday Hall?",
+        "Location of Faraday Hall?",
+        "Faraday Hall"
+      ],
+      "responses": [
+        "Faraday Hall is located in ES Block-2nd Floor."
+      ]
+    },
+    {
+      "tag": "capacity_faraday_hall",
+      "patterns": [
+        "What is the capacity of Faraday Hall?",
+        "Capacity of Faraday Hall?"
+      ],
+      "responses": [
+        "Faraday Hall has a capacity of 600 people."
+      ]
+    },
+    {
+      "tag": "facilities_faraday_hall",
+      "patterns": [
+        "What are the facilities in Faraday Hall?",
+        "Facilities in Faraday Hall?"
+      ],
+      "responses": [
+        "Facilities in Faraday Hall include podium, microphone, sound system, projector."
+      ]
+    },
+    {
+      "tag": "person_incharge_faraday_hall",
+      "patterns": [
+        "Who is in charge of Faraday Hall?",
+        "Person in charge of Faraday Hall?"
+      ],
+      "responses": [
+        "Faraday Hall is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_faraday_hall",
+      "patterns": [
+        "Tell me about Faraday Hall",
+        "What are the details of Faraday Hall?",
+        "Details of Faraday Hall?"
+      ],
+      "responses": [
+        "Faraday Hall is located in ES Block-2nd Floor with a capacity of 600 people. Facilities included: podium, microphone, sound system, projector. It is managed by pro@srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_gd_naidu_hall",
+      "patterns": [
+        "Where is G. D. Naidu Hall located?",
+        "What is the location of G. D. Naidu Hall?",
+        "Location of G. D. Naidu Hall?",
+        "G. D. Naidu Hall"
+      ],
+      "responses": [
+        "G. D. Naidu Hall is located in Mech B- Block, 1st Floor."
+      ]
+    },
+    {
+      "tag": "capacity_gd_naidu_hall",
+      "patterns": [
+        "What is the capacity of G. D. Naidu Hall?",
+        "Capacity of G. D. Naidu Hall?"
+      ],
+      "responses": [
+        "G. D. Naidu Hall has a capacity of 350 people."
+      ]
+    },
+    {
+      "tag": "facilities_gd_naidu_hall",
+      "patterns": [
+        "What are the facilities in G. D. Naidu Hall?",
+        "Facilities in G. D. Naidu Hall?"
+      ],
+      "responses": [
+        "Facilities in G. D. Naidu Hall include podium, microphone, sound system, projector."
+      ]
+    },
+    {
+      "tag": "person_incharge_gd_naidu_hall",
+      "patterns": [
+        "Who is in charge of G. D. Naidu Hall?",
+        "Person in charge of G. D. Naidu Hall?"
+      ],
+      "responses": [
+        "G. D. Naidu Hall is managed by hod.mech@ktr.srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_gd_naidu_hall",
+      "patterns": [
+        "Tell me about G. D. Naidu Hall",
+        "What are the details of G. D. Naidu Hall?",
+        "Details of G. D. Naidu Hall?"
+      ],
+      "responses": [
+        "G. D. Naidu Hall is located in Mech B- Block, 1st Floor with a capacity of 350 people. Facilities included: podium, microphone, sound system, projector. It is managed by hod.mech@ktr.srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "location_sir_vishveshvaraya_hall",
+      "patterns": [
+        "Where is Sir. Vishveshvaraya Hall located?",
+        "What is the location of Sir. Vishveshvaraya Hall?",
+        "Location of Sir. Vishveshvaraya Hall?",
+        "Sir. Vishveshvaraya Hall"
+      ],
+      "responses": [
+        "Sir. Vishveshvaraya Hall is located in CRC Block, Main Campus."
+      ]
+    },
+    {
+      "tag": "capacity_sir_vishveshvaraya_hall",
+      "patterns": [
+        "What is the capacity of Sir. Vishveshvaraya Hall?",
+        "Capacity of Sir. Vishveshvaraya Hall?"
+      ],
+      "responses": [
+        "Sir. Vishveshvaraya Hall has a capacity of 200 people."
+      ]
+    },
+    {
+      "tag": "facilities_sir_vishveshvaraya_hall",
+      "patterns": [
+        "What are the facilities in Sir. Vishveshvaraya Hall?",
+        "Facilities in Sir. Vishveshvaraya Hall?"
+      ],
+      "responses": [
+        "Facilities in Sir. Vishveshvaraya Hall include podium, microphone, sound system, projector."
+      ]
+    },
+    {
+      "tag": "person_incharge_sir_vishveshvaraya_hall",
+      "patterns": [
+        "Who is in charge of Sir. Vishveshvaraya Hall?",
+        "Person in charge of Sir. Vishveshvaraya Hall?"
+      ],
+      "responses": [
+        "Sir. Vishveshvaraya Hall is managed by hod.civil.ktr@srmist.edu.in."
+      ]
+    },
+    {
+      "tag": "details_sir_vishveshvaraya_hall",
+      "patterns": [
+        "Tell me about Sir. Vishveshvaraya Hall",
+        "What are the details of Sir. Vishveshvaraya Hall?",
+        "Details of Sir. Vishveshvaraya Hall?"
+      ],
+      "responses": [
+        "Sir. Vishveshvaraya Hall is located in CRC Block, Main Campus with a capacity of 200 people. Facilities included: podium, microphone, sound system, projector. It is managed by hod.civil.ktr@srmist.edu.in."
+      ]
+    },
+    {
+      "tag": "location_hippocrates_auditorium",
+      "patterns": [
+        "Where is Hippocrates Auditorium located?",
+        "What is the location of Hippocrates Auditorium?",
+        "Location of Hippocrates Auditorium?"
+      ],
+      "responses": [
+        "Hippocrates Auditorium is located in Medical College."
+      ]
+    },
+    {
+      "tag": "capacity_hippocrates_auditorium",
+      "patterns": [
+        "What is the capacity of Hippocrates Auditorium?",
+        "Capacity of Hippocrates Auditorium?"
+      ],
+      "responses": [
+        "Hippocrates Auditorium has a capacity of 600 people."
+      ]
+    },
+    {
+      "tag": "facilities_hippocrates_auditorium",
+      "patterns": [
+        "What are the facilities in Hippocrates Auditorium?",
+        "Facilities in Hippocrates Auditorium?"
+      ],
+      "responses": [
+        "Facilities in Hippocrates Auditorium include podium, microphone, sound system, projector."
+      ]
+    },
+    {
+      "tag": "person_incharge_hippocrates_auditorium",
+      "patterns": [
+        "Who is in charge of Hippocrates Auditorium?",
+        "Person in charge of Hippocrates Auditorium?"
+      ],
+      "responses": [
+        "Hippocrates Auditorium is managed by dean.medical@ktr.srmuniv.ac.in."
+      ]
+    },
+    {
+      "tag": "details_hippocrates_auditorium",
+      "patterns": [
+        "Tell me about Hippocrates Auditorium",
+        "What are the details of Hippocrates Auditorium?",
+        "Details of Hippocrates Auditorium?"
+      ],
+      "responses": [
+        "Hippocrates Auditorium is located in Medical College with a capacity of 600 people. Facilities included: podium, microphone, sound system, projector. It is managed by dean.medical@ktr.srmuniv.ac.in."
+      ]
+    },
+    
+    
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+   
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't understand that.", "Could you please rephrase that?", "I'm not sure I follow."]
+    }
+  ]
+}
